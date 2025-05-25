@@ -1,0 +1,162 @@
+body {
+    font-family: sans-serif;
+    margin:0;
+}
+
+.btn{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:5px;
+    padding-inline: 300px;
+    flex-wrap: wrap;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.top{
+    background-color: black
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+#logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+
+#search_bar{
+    width:125px;
+    height:25px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+#search{
+    padding:5px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#btn2{
+    display:flex;
+    justify-content: right;
+    align-items:center;
+    padding-inline:20px;
+    margin-top:-35px;
+    flex-wrap: wrap;
+    gap:40px;
+}
+
+#mtext{
+    color:white;
+    font-size:64px;
+    line-height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#text{
+    color:white;
+    margin-left:50px;
+    font-size:20px;
+}
+
+.text_btn{
+    display:flex;
+    align-items: end;
+    justify-content: space-around;
+    position:relative;
+    top:450px;
+    gap:200px;
+    flex-wrap: wrap;
+}
+
+.left_text{
+    width:400px;
+}
+
+#button_bottom{
+    background-color: white;
+    color:black;
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+    font-size: 21px;
+}
+
+.top_banner{
+    background-image: url("https://prometey.org.ua/images/top-news.jpg");
+    height: 334px;
+    color:white;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 0px;
+}
+
+#header{
+    font-size: 64px;
+}
+
+#header_d{
+    font-size:21px;
+}
+.category{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bottom_banner{
+    display:flex;
+    justify-content: space-around;
+    align-items: start;
+    background-color: gray;
+    padding-bottom:20px;
+    line-height: 40px;
+}
+
+.container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0px 100px 0px;
+    flex-wrap: wrap;
+}
+
+.image{
+    width:350px;
+    border-radius: 50px;
+    transition: 1.5s ease-out;
+}
+
+.image:hover{
+    transform: scale(105%);
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.show_more{
+    border-radius: 20px;
+    background-color: white;
+    color:black;
+    padding: 10px 40px 10px 40px;
+    box-shadow: 0px 0px 11.9px rgba(0, 0, 0, 0.25);
+    position:relative;
+    font-size:21px;
+    top:30px;
+    transition: 0.5s ease-out;
+}
+
+.show_more:hover{
+    background-color: black;
+    color:white;
+}
