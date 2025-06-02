@@ -112,10 +112,12 @@ a{
 
 #about_us_mtext{
     font-family: 'Times New Roman', Times, serif;
+    font-size: 52px;
 }
 
 #about_us_description{
     margin-left:20px;
+    font-size: 18px;
 }
 
 .mheadert1{
