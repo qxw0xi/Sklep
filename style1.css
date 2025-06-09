@@ -14,8 +14,7 @@ body {
 }
 
 .top{
-    background-color: black;
-    padding-bottom:10px;
+    background-color: black
 }
 
 a{
@@ -90,6 +89,8 @@ a{
 
 .top_banner{
     background-image: url("https://learn.logikaschool.com/uploads/student/4819331/68332d9051cce.png");
+    background-repeat: no-repeat;
+    background-size:cover;
     height: 334px;
     color:white;
     text-align:center;
